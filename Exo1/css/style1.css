@@ -1,0 +1,152 @@
+/*Section*/
+#page{
+	display:block;
+	border: thin solid black;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Entete page*/
+
+#div_header_main {
+	width: 90%;
+	overflow:hidden; 
+	border: thin solid black;	
+	padding: 5px 10px 0px 5px;
+	margin-top: 3px;
+}
+	
+#div_header_left {
+	width: 800px;
+	float:left;
+	overflow:hidden;
+	margin-top: 3px;
+}
+
+#div_header_right {
+	width: 300px;
+    float:right;
+	overflow:hidden;
+	margin-top: 3px;
+}
+
+#div_header_right img
+{
+    float:right;
+    clear:right;
+	padding: 10px 0 0 0px;
+	/*border: thin solid black;*/
+	height: 80px;
+    /*added for testing*/
+    /*width: 40px;*/
+}
+
+/*Grand Conteneur*/
+#div_content
+{
+      position: relative;
+	  overflow:hidden;
+	  width:90%;
+}
+
+/*Conteneur de l'image et accessoires*/
+#article_1
+{
+      position: fixed;
+	  float:left;	  
+}
+
+/*Conteneur de la ligne contenant l'image et les fleches droite et gauche*/
+
+#div_article_1_central
+{
+	overflow:hidden;
+}
+
+/*image carte*/
+#div_article_1_central_carte img
+{
+    /*updated for testing*/
+    width: 400px;
+	
+	/*ajout*/
+	
+	margin-right:auto;   
+}
+
+#div_article_1_central_carte
+{
+	overflow:hidden;
+}
+
+/*fleche haut*/
+#div_article_1_fleche_haut img
+{
+	height:25px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#div_article_1_fleche_haut 
+{
+	overflow:hidden;
+}
+
+/*fleche a droite*/
+#div_article_1_central_fd img
+{
+	height:25px;
+	vertical-align:middle;
+}
+
+#div_article_1_central_fd 
+{
+	float:right;
+	clear:right;
+	margin-left: 430px;
+	margin-top: -145px;
+	/*min-height:25px;*/
+	max-height:25px;
+	max-width:25px;
+	padding:0px;
+}
+
+/*fleche a gauche*/
+#div_article_1_central_fg img
+{
+	height:25px;
+	vertical-align:middle;
+}
+
+#div_article_1_central_fg 
+{
+	margin-top: 115px;
+	float:left;
+	max-height:25px;
+	max-width:25px;
+	overflow:hidden;
+}
+
+/*fleche bas*/
+#div_article_1_fleche_bas img
+{
+	height:25px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#div_articxle_1_fleche_bas 
+{
+	max-width: 25px;
+}
+ 
+aside
+{
+     display:block;
+	 float:right;
+	 width:400px;
+	 height:100%;
+	 border: thin solid black;
+}
