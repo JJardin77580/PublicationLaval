@@ -2,38 +2,39 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="../css/test_table.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style2.css" />
 		<title>Ajouter des infos</title>
 	</head>
+	
 	<body>
-		
-		<div>
-			<form>
-				<div>
-				<label> Ajouter info</label>
+	
+	<div>
+		<form>
+			<div>
+			<h1> Ajouter info </h1>
+			</div>
+			<div>
+			<p for="nom">Nom : <input class="nom" type="text" id="nom"></p>
+			</div>
+			<div>
+			<p for="Texte"> Texte : <textarea id="text"> </textarea></p>
+			</div>
+			<div>
+			<p class="aff"> Affichage de l'info : </p>
+			</div>
+			<div>
+			<p class="aff"> <input type="radio" name="confidentialite" value="Public">Public </p>
+			</div>
+			<div>
+			<p class="aff"> <input type="radio" name="confidentialite" value="Priv&#233">Priv&#233 </p>
+			</div>
+			<div class="button">
+			<button type="submit">Envoyer </button>
 				</div>
-			   <div>
-				<label for="nom">Nom :</label>
-				<input type="text" id="nom" />
-				</div>
-				<div>
-				<label  for="Texte"> Texte :</label>
-				<textarea id="text"> </textarea>
-				</div>
-				<div>
-				<label> Affichage de l'info : </label>
-				</div>
-				<div>
-				<label> <input type="radio" name="confidentialite" value="Public">Public </label>
-				</div><div>
-				<label> <input type="radio" name="confidentialite" value="Priv&#233">Priv&#233</label>
-				</div>
-				<div class="button">
-				<button type="submit">Envoyer </button>
-				</div>
-			</form>
-		</div>
-		
+			
+			
+		</form>
+	</div>
+	
 	
 	</body>
-</html>

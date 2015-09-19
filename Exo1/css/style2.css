@@ -282,3 +282,32 @@ td{
 	vertical-align:bottom;
 	text-align:bottom;
 }
+
+form
+	{
+	 background-color: #ADD8E6;
+	border: 1px solid black;
+	margin: auto;
+    width: 40%;
+	}
+
+h1
+{
+	text-align: center;
+}
+
+p {
+	
+}
+
+p.aff
+{
+	text-align: center;
+}
+
+textarea, input.nom
+	{
+    width: 150px;
+	text-align: right;
+	 
+	}
