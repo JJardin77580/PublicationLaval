@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="feuilleDeStyle.css" type="text/css">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/test_table.css" />
 		<title>Ajouter des infos</title>
 	</head>
 	<body>
-	
-	<BODY>
-	
+		
 		<div>
-			<Table border="1" align="center"bgcolor="#7FC6BC">
-				<tr><td>
-			<h1>Ajouter info</h1>
 			<form>
-				<p>
-				Nom: <input type="text" name="Nom">  <br>
-				<p>
-				Texte: <textarea name="Texte" rows=1 cols=14>  </textarea><br>
-				<p>
-				Affichage de l'info: <br>
-				<p>
-				<center>
-				<input type="radio" name="confidentialite" value="Public">Public<br>
-				<input type="radio" name="confidentialite" value="Priv&#233">Priv&#233<br>
-				</center>
-				<p>
-				
-				<input type="submit" value="Envoyer">
-				
-				
+				<div>
+				<label> Ajouter info</label>
+				</div>
+			   <div>
+				<label for="nom">Nom :</label>
+				<input type="text" id="nom" />
+				</div>
+				<div>
+				<label  for="Texte"> Texte :</label>
+				<textarea id="text"> </textarea>
+				</div>
+				<div>
+				<label> Affichage de l'info : </label>
+				</div>
+				<div>
+				<label> <input type="radio" name="confidentialite" value="Public">Public </label>
+				</div><div>
+				<label> <input type="radio" name="confidentialite" value="Priv&#233">Priv&#233</label>
+				</div>
+				<div class="button">
+				<button type="submit">Envoyer </button>
+				</div>
 			</form>
-			</table>
-			
 		</div>
 		
 	
