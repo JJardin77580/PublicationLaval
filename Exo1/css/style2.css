@@ -289,6 +289,8 @@ form
 	border: 1px solid black;
 	margin: auto;
     width: 250px;
+	height: 330px;
+	padding: 10px;
 	}
 
 h1
@@ -318,3 +320,48 @@ td.legende:hover
 	font-size: x-large;
 }
 
+
+div.info
+{
+	border: 1px solid black;
+	background: #ADD8E6;
+	width: 200px;
+	margin: auto;
+	padding: 10px;
+	height: 350px
+}
+
+p.info
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+table.info
+{
+	border-collapse: collapse;	
+	text-align: center;
+	margin: auto;
+	width: 200px;
+	
+}
+
+th.info 
+{
+	border: 1px solid black;
+	background-color: #DCDCDC;
+	font-weight: normal;
+	
+}
+
+td.info 
+{
+	border: 1px solid black;
+	background-color: #FFFFFF;
+}
+
+button
+{
+	float: right;
+}
