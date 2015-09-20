@@ -1,0 +1,368 @@
+/*Grand DIV: Div englobante*/
+#page{
+	width: 90%;	
+	overflow:hidden;
+	position:relative;
+	/*padding: 0px 0px 0px 0px;*/
+	margin-top:1%;
+	margin-bottom:1%;
+	margin-left:auto;
+	margin-right:auto;
+	border: thin solid black;	
+	
+}
+
+
+/*Entete page*/
+/
+#header{
+	height: 20%;
+	
+	border: thin solid black;
+	margin-top:0px;
+	
+}
+
+#div_header_left {
+	width: 70%;
+	float:left;
+	overflow:hidden;
+	padding: 10px 10px 0px 10px;
+	
+}
+
+
+#div_header_right {
+	width: 27%;
+    float:right;
+	overflow:hidden;
+	margin-top: 3px;
+	padding: 10px 10px 10px 0px;
+	
+}
+.Style5{
+	position:absolute;
+    float:left;
+    clear:left;
+	margin: 4px;
+	padding: 15px 5px 15px 220px;}
+	
+
+#div_header_right img
+{
+    float:right;
+    clear:right;
+	
+	border: thin solid black;
+	height: 80px;
+    /*added for testing*/
+  /*  width: 40px;*/
+}
+
+
+/*Grand Conteneur*/
+
+#div_content
+{
+    position: relative;
+	
+	width: 100%;
+	height:80%;
+	overflow:hidden; 
+	border: thin solid black;	
+	padding: 0px 10px 0px 0px;
+	margin-top: 0px;
+	margin-left:0px;
+	/*float:left;
+	clear:left;*/
+}
+
+
+
+/*Conteneur des outils, l'image et accessoires*/
+
+#article {
+ position: relative;
+	
+	width: 61.5%;
+	height:100%;
+	float:left;
+	clear:left;
+	overflow:hidden; 
+	border: thin solid black;	
+	padding: 5px 0px 0px 0px;
+	margin-top: 0px;
+	margin-left:0px;
+
+}
+
+aside
+{	 position: relative;
+     display:inline-block;
+	 float:right;
+	 clear:right;
+	 width:37%;
+	 /*height:100%;*/
+	 /*border: thin solid black;*/
+	/* text-align:center;*/
+}
+
+/*Developpement de artcle*/
+
+/*Conteneur de l'image et accessoires*/
+
+#article_1
+{
+    position: relative;
+	float:left;
+	width: 100%;
+	height:100%;
+	overflow:hidden; 
+	border: thin solid black;	
+	padding: 5px 0px 0px 0px;
+	/*margin-top: 5%;
+	margin-left:5%;
+	margin-right: 5%;
+	margin-bottom:5%;*/
+}
+/*Conteneur de la la fleche haute*/
+#div_article_1_fleche_haut img
+{
+	height:25px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#div_article_1_fleche_haut 
+{
+	overflow:hidden;
+}
+
+
+
+
+
+/*Conteneur de la ligne contenant l'image et les fleches droite et gauche*/
+
+#div_article_1_central
+{
+	overflow:hidden;
+	
+}
+/*fleche a gauche*/
+
+#div_article_1_central_fg img
+{
+	height:25px;
+	vertical-align:middle;
+}
+
+#div_article_1_central_fg 
+{
+	margin-top: 185px;
+	margin-left:0px;
+	float:left;
+	/*max-height:25px;
+	max-width:25px;*/
+	overflow:hidden;
+	height:100%;
+	/*width:2%;*/
+}
+
+
+
+/*image carte*/
+
+#div_article_1_central_carte img
+{
+    /*updated for testing*/
+    width: 99%;
+	
+	/*ajout*/
+	
+	margin-right:auto;
+	border:thin solid black;
+	
+}
+
+#div_article_1_central_carte
+
+{
+	overflow:hidden;
+	width:94%;
+	vertical-align:middle;
+	
+	
+}
+
+/*fleche droite*/
+
+#div_article_1_central_fd img
+{
+	height:25px;
+	vertical-align:middle;
+}
+
+#div_article_1_central_fd 
+{
+	float:right;
+	clear:right;
+	margin-right:0px;
+	margin-top:-275px;
+	min-height:25px;
+	max-height:25px;
+	max-width:25px;
+	/*padding:0px 5px 0px 0px;*/
+	/*position:absolute;*/
+	/*width:2%;*/
+}
+
+
+
+/*conteneur ayant la fleche bas*/
+
+#div_article_1_fleche_bas img
+{
+	height:25px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#div_article_1_fleche_bas 
+{
+	/*max-width: 25px; a eliminer parce que cela reduit la ligne en un petit cadre de 25px */
+	overflow:hidden;
+}
+
+/*Developpement de aside*/
+
+#div_label{
+	float:left;
+	padding: 10px 10px 10px 5px;
+}
+
+
+
+#aside_table_legende{
+/*border:1px solid;*/
+	width:95%;
+	margin-left:auto; 
+	margin-right:auto;
+	border-spacing: 0;
+	border:0.5px solid;
+	/*padding: 10px 10px 10px 5px;*/
+	background: #ADD8E6;
+} 
+#aside_table_legende img
+{
+    /*updated for testing*/
+    width: 50%;
+	
+	/*ajout*/
+	height:50px;
+	display:block;
+	margin:auto; 
+	border:0.2px solid;
+}
+
+tr{
+	/*border:0.5px solid;*/
+	padding: 10px 10px 10px 5px;
+	
+}
+td{
+	border:0.1px solid;
+	padding: 10px 10px 10px 5px;
+}
+#div_text{
+	margin-top:100px;
+	bottom:0;
+	float: bottom;
+	vertical-align:bottom;
+	text-align:bottom;
+}
+
+form
+	{
+	 background-color: #ADD8E6;
+	border: 1px solid black;
+	margin: auto;
+    width: 250px;
+	height: 330px;
+	padding: 10px;
+	}
+
+h1
+{
+	text-align: center;
+}
+
+p {
+	
+}
+
+p.aff
+{
+	text-align: center;
+}
+
+textarea, input.nom
+	{
+    width: 150px;
+	text-align: right;	 
+	}
+
+td.legende:hover
+{
+	background-color: #DCDCDC;
+	color: green; 
+	font-size: x-large;
+}
+
+
+div.info
+{
+	border: 1px solid black;
+	background: #ADD8E6;
+	width: 200px;
+	margin: auto;
+	padding: 10px;
+	height: 350px
+}
+
+p.info
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+table.info
+{
+	border-collapse: collapse;	
+	text-align: center;
+	margin: auto;
+	width: 200px;
+	
+}
+
+th.info 
+{
+	border: 1px solid black;
+	background-color: #DCDCDC;
+	font-weight: normal;
+	
+}
+
+td.info 
+{
+	border: 1px solid black;
+	background-color: #FFFFFF;
+}
+
+button
+{
+	float: right;
+}
