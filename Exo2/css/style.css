@@ -247,7 +247,7 @@ aside
 
 #aside_table_legende{
 /*border:1px solid;*/
-	width:95%;
+	width:/*95%*/90%;
 	margin-left:auto; 
 	margin-right:auto;
 	border-spacing: 0;
@@ -261,23 +261,31 @@ aside
     width: 50%;
 	
 	/*ajout*/
-	height:50px;
+	height:20px;
 	display:block;
 	margin:auto; 
 	border:0.2px solid;
 }
 
-tr{
+#point img
+{
+ width: 7%;
+}
+
+tr
+{
 	/*border:0.5px solid;*/
 	padding: 10px 10px 10px 5px;
 	
 }
-td{
+td
+{
 	border:0.1px solid;
 	padding: 10px 10px 10px 5px;
 }
-#div_text{
-	margin-top:100px;
+#div_text
+{
+	margin-top:60px;
 	bottom:0;
 	float: bottom;
 	vertical-align:bottom;
@@ -285,14 +293,14 @@ td{
 }
 
 form
-	{
+{
 	 background-color: #ADD8E6;
 	border: 1px solid black;
 	margin: auto;
     width: 250px;
 	height: 330px;
 	padding: 10px;
-	}
+}
 
 h1
 {
@@ -309,16 +317,59 @@ p.aff
 }
 
 textarea, input.nom
-	{
+{
     width: 150px;
 	text-align: right;	 
-	}
+}
 
 td.legende:hover
 {
-	background-color: #DCDCDC;
-	color: green; 
-	font-size: x-large;
+	background-color: #C9E6EF;
+	/*text-shadow: 2px 2px 8px #FF0000;*/
+	 
+	/*color: green; */
+	/*font-size: large;*/
+}
+
+#aside_table_legende_td_boisee:hover
+{
+	color:green;
+}
+
+#aside_table_legende_td_nboisee:hover
+{
+	color:black;
+	
+}
+
+#aside_table_legende_td_vp:hover
+{
+	color:purple;
+}
+
+#aside_table_legende_td_vs:hover
+{
+	color:red;
+}
+
+#aside_table_legende_td_vt:hover
+{
+	color:#AA8400;
+}
+
+#aside_table_legende_td_vf:hover
+{
+	color:black;
+}
+
+#aside_table_legende_td_int:hover
+{
+	color:black;
+}
+
+#aside_table_legende_td_riv:hover
+{
+	color:blue;
 }
 
 
